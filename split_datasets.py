@@ -50,4 +50,4 @@ def copy_images(image_list: list, img_src: str, img_dest: str, label_src: str, l
 
 
 if __name__ == '__main__':
-    split_datasets(output_path='data/nesto')
+    split_datasets(images_path='new_data/images', output_path='training/data')
